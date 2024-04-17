@@ -28,6 +28,11 @@ OR
     export PATH=path/bin:$PATH
     export LD_LIBRARY_PATH=path/lib:$LD_LIBRARY_PATH
     ```
+    In WSL do:
+    ```
+    export PATH="$PATH:path/bin"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:path/lib"
+    ```
     - Run `source ~/.bashrc`
     - Make all files in bin executable: `chmod -R +x path/bin`
     - Test: `elastix --help`
